@@ -29,7 +29,7 @@ public class ViewFarmCattle {
 		request.header("Authorization","Bearer " + token);
 		Response response = request.post("FM/ViewFarmCattleList");
 
-		System.out.println("Response body: " + response.body().prettyPeek().asString());
+		response.prettyPeek();
 
 		String jsonString = response.asString();				
 
