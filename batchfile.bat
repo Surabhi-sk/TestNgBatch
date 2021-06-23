@@ -1,2 +1,2 @@
-java org.testng.TestNG .\testng.xml
+java org.testng.TestNG TestNgBatch/testng.xml
 pause
