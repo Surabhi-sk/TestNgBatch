@@ -39,7 +39,7 @@ public class ViewFarmCattle {
 
 		
 		// Comparing expected result with actual result
-		Assert.assertEquals(400, response.getStatusCode());
+		Assert.assertEquals(200, response.getStatusCode());
 		
 		
 
